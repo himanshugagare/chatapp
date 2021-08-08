@@ -1,15 +1,23 @@
 {
-  "name": "Chatroom",
+  "name": "chatroom",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshugagare/chatapp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshugagare/chatapp/issues"
+  },
+  "homepage": "https://github.com/himanshugagare/chatapp#readme",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.1.3"
