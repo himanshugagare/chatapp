@@ -99,7 +99,7 @@ body{
 .chat-screen .messages{
     width: 100%;
     height: calc(100% - 100px);
-    background: #f5f5f5;
+    background: #f3f6fb;
     overflow: auto;
 }
 .chat-screen .messages .message{
@@ -120,11 +120,12 @@ body{
     border-bottom-right-radius: 0px;
 }
 .chat-screen .messages .message.other-message > div .name{
-    color: rgb(163, 163, 163);
+    color: #fff0e9;
 }
 .chat-screen .messages .message.other-message > div{
     border-top-left-radius: 0px;
-    background-color: #222222;
+    background-color: #1b223c
+    ;
     color: #fff;
 }
 .chat-screen .messages .message.other-message{
@@ -156,8 +157,8 @@ body{
 .chat-screen .typebox button{
     width: 80px;
     height: 100%;
-    background: #fff;
-    color: #000;
+    background: #004dfb;
+    color: #fff;
     font-size: 16px;
     outline: none;
     border: none;
